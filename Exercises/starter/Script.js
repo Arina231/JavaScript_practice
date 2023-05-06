@@ -6,4 +6,4 @@ console.log(firstName);
 
 const ageCurrent = 2052 - 1999;
 const ageYear = 2052 - 1900;
-console.log(ageCurrent, ageYear, 9 ** 3);
+console.log(ageCurrent, ageYear);
