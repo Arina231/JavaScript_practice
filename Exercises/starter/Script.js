@@ -16,16 +16,21 @@ if (age >= 18) {
   const yearsLeft = 18 - age;
   console.log(`wait another ${yearsLeft} years.`);
 }
-console.log(`the jungle king.......`);
-console.log("the jungle king..");
 
-const year = 2000;
+// const MarksMass = 95;
+// const MarksHeight = 1.88;
+// const JohnsMass = 85;
+// const JohnsHeight = 1.76;
 
-let century;
-if (year <= 2000) {
-  century = 20;
+const MarksMass = 78;
+const MarksHeight = 1.69;
+const JohnsMass = 92;
+const JohnsHeight = 1.95;
+
+const MarksBMI = MarksMass / MarksHeight ** 2;
+const JohnsBMI = JohnsMass / JohnsHeight ** 2;
+if (MarksBMI < JohnsBMI) {
+  console.log(`John's BMI ${JohnsBMI} is higher than Mark's BMI ${MarksBMI}`);
 } else {
-  century = 21;
+  console.log(`Mark's BMI ${MarksBMI} is higher than John's BMI ${JohnsBMI}`);
 }
-
-console.log(century);
