@@ -34,3 +34,6 @@ if (MarksBMI < JohnsBMI) {
 } else {
   console.log(`Mark's BMI ${MarksBMI} is higher than John's BMI ${JohnsBMI}`);
 }
+const time = "1133";
+console.log(Number(time) + 20, time);
+console.log();
