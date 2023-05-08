@@ -16,3 +16,16 @@ if (age >= 18) {
   const yearsLeft = 18 - age;
   console.log(`wait another ${yearsLeft} years.`);
 }
+console.log(`the jungle king.......`);
+console.log("the jungle king..");
+
+const year = 2000;
+
+let century;
+if (year <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
