@@ -17,6 +17,11 @@ if (age >= 18) {
   console.log(`wait another ${yearsLeft} years.`);
 }
 
+// const MarksMass = 95;
+// const MarksHeight = 1.88;
+// const JohnsMass = 85;
+// const JohnsHeight = 1.76;
+
 const MarksMass = 78;
 const MarksHeight = 1.69;
 const JohnsMass = 92;
