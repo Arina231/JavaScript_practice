@@ -22,15 +22,25 @@ if (age >= 18) {
 // const JohnsMass = 85;
 // const JohnsHeight = 1.76;
 
-const MarksMass = 78;
-const MarksHeight = 1.69;
-const JohnsMass = 92;
-const JohnsHeight = 1.95;
+// const MarksMass = 78;
+// const MarksHeight = 1.69;
+// const JohnsMass = 92;
+// const JohnsHeight = 1.95;
 
-const MarksBMI = MarksMass / MarksHeight ** 2;
-const JohnsBMI = JohnsMass / JohnsHeight ** 2;
-if (MarksBMI < JohnsBMI) {
-  console.log(`John's BMI ${JohnsBMI} is higher than Mark's BMI ${MarksBMI}`);
+// const MarksBMI = MarksMass / MarksHeight ** 2;
+// const JohnsBMI = JohnsMass / JohnsHeight ** 2;
+// if (MarksBMI < JohnsBMI) {
+//   console.log(`John's BMI ${JohnsBMI} is higher than Mark's BMI ${MarksBMI}`);
+// } else {
+//   console.log(`Mark's BMI ${MarksBMI} is higher than John's BMI ${JohnsBMI}`);
+// }
+
+const scoreDolphins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 123) / 3;
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas) {
+  console.log("Dolphin wins...");
 } else {
-  console.log(`Mark's BMI ${MarksBMI} is higher than John's BMI ${JohnsBMI}`);
+  console.log("koalas wins...");
 }
