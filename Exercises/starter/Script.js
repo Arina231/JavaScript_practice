@@ -34,13 +34,3 @@ if (age >= 18) {
 // } else {
 //   console.log(`Mark's BMI ${MarksBMI} is higher than John's BMI ${JohnsBMI}`);
 // }
-
-const scoreDolphins = (97 + 112 + 101) / 3;
-const scoreKoalas = (109 + 95 + 123) / 3;
-console.log(scoreDolphins, scoreKoalas);
-
-if (scoreDolphins > scoreKoalas) {
-  console.log("Dolphin wins...");
-} else {
-  console.log("koalas wins...");
-}
