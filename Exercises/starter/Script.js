@@ -22,15 +22,15 @@ if (age >= 18) {
 // const JohnsMass = 85;
 // const JohnsHeight = 1.76;
 
-// const MarksMass = 78;
-// const MarksHeight = 1.69;
-// const JohnsMass = 92;
-// const JohnsHeight = 1.95;
+const MarksMass = 78;
+const MarksHeight = 1.69;
+const JohnsMass = 92;
+const JohnsHeight = 1.95;
 
-// const MarksBMI = MarksMass / MarksHeight ** 2;
-// const JohnsBMI = JohnsMass / JohnsHeight ** 2;
-// if (MarksBMI < JohnsBMI) {
-//   console.log(`John's BMI ${JohnsBMI} is higher than Mark's BMI ${MarksBMI}`);
-// } else {
-//   console.log(`Mark's BMI ${MarksBMI} is higher than John's BMI ${JohnsBMI}`);
-// }
+const MarksBMI = MarksMass / MarksHeight ** 2;
+const JohnsBMI = JohnsMass / JohnsHeight ** 2;
+if (MarksBMI < JohnsBMI) {
+  console.log(`John's BMI ${JohnsBMI} is higher than Mark's BMI ${MarksBMI}`);
+} else {
+  console.log(`Mark's BMI ${MarksBMI} is higher than John's BMI ${JohnsBMI}`);
+}
