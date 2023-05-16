@@ -40,7 +40,7 @@ age >= 18 ? console.log("wine please") : console.log("water.");
 
 const drink = age >= 18 ? console.log("wine please") : console.log("water.");
 
-const Bill = 352;
+const Bill = 430;
 const Tip = Bill <= 300 && Bill >= 50 ? Bill * 0.15 : Bill * 0.2;
 
 console.log(
