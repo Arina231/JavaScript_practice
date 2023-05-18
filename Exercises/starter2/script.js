@@ -21,3 +21,8 @@ const fruitprocessor3 = (apples, oranges) => {
 };
 
 console.log(fruitprocessor3(3, 3));
+
+const calPrice = (perKgP, weight) => {
+  return `total price is ${perKgP * weight}`;
+};
+console.log(calPrice(30, 3));
