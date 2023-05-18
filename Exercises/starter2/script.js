@@ -8,8 +8,16 @@ const appleOrangeJuice = fruitprocessor(3, 3);
 console.log(appleOrangeJuice);
 
 //function expression
-const fruitprocessor = function (apples, oranges) {
+const fruitprocessor2 = function (apples, oranges) {
   return `juice with ${apples} apples and ${oranges} oranges.`;
 };
-const appleJuice = fruitprocessor(3, 3);
+const appleJuice = fruitprocessor2(3, 3);
 console.log(appleJuice);
+
+//arrow function
+
+const fruitprocessor3 = (apples, oranges) => {
+  return `juice with ${apples} apples and ${oranges} oranges.`;
+};
+
+console.log(fruitprocessor3(3, 3));
