@@ -30,3 +30,9 @@
 const calcAverage = (X, Y, Z) => {
   return `the average is ${(X + Y + Z) / 3}`;
 };
+console.log(calcAverage(3, 4, 5));
+
+const scoreDolphin = calcAverage(44, 23, 71);
+const scoreKoalas = calcAverage(65, 54, 49);
+
+console.log(scoreDolphin, scoreKoalas);
