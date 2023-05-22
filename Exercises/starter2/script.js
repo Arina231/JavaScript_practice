@@ -32,19 +32,19 @@ const calcAverage = (X, Y, Z) => {
 };
 console.log(calcAverage(3, 4, 5));
 
-const scoreDolphin = calcAverage(44, 23, 71);
-const scoreKoalas = calcAverage(65, 54, 49);
+// const scoreDolphin = calcAverage(44, 23, 71);
+// const scoreKoalas = calcAverage(65, 54, 49);
 
-console.log(scoreDolphin, scoreKoalas);
+// console.log(scoreDolphin, scoreKoalas);
 
-const checkWinner = (avgDolphin, avgKoalas) => {
-  if (avgDolphin >= 2 * avgKoalas) {
-    console.log(`Dolphin win ${avgDolphin} vs ${avgKoalas}`);
-  } else if (avgKoalas >= 2 * avgDolphin) {
-    console.log(`Koalas win ${avgKoalas} vs ${avgDolphin}`);
-  } else {
-    console.log("no team wins");
-  }
-};
-checkWinner(scoreDolphin, scoreKoalas);
-checkWinner(666, 222);
+// const checkWinner = (avgDolphin, avgKoalas) => {
+//   if (avgDolphin >= 2 * avgKoalas) {
+//     console.log(`Dolphin win ${avgDolphin} vs ${avgKoalas}`);
+//   } else if (avgKoalas >= 2 * avgDolphin) {
+//     console.log(`Koalas win ${avgKoalas} vs ${avgDolphin}`);
+//   } else {
+//     console.log("no team wins");
+//   }
+// };
+// checkWinner(scoreDolphin, scoreKoalas);
+// checkWinner(666, 222);
