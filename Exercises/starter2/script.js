@@ -51,3 +51,5 @@ checkWinner(666, 222);
 
 const friends = ["nazy", "arina", "tania"];
 console.log(friends.length);
+friends.push("tonny");
+console.log(friends);
