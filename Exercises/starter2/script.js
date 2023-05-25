@@ -48,3 +48,6 @@ const checkWinner = (avgDolphin, avgKoalas) => {
 };
 checkWinner(scoreDolphin, scoreKoalas);
 checkWinner(666, 222);
+
+const friends = ["nazy", "arina", "tania"];
+console.log(friends.length);
