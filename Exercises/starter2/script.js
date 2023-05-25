@@ -51,5 +51,11 @@ checkWinner(666, 222);
 
 const friends = ["nazy", "arina", "tania"];
 console.log(friends.length);
-friends.push("tonny");
+const newLength = friends.push("tonny");
 console.log(friends);
+console.log(newLength);
+friends.unshift("mihal"); // add at first place
+console.log(friends);
+const pooped = friends.pop(); //remove last elements
+console.log(pooped);
+friends.shift(); //remove the first one
