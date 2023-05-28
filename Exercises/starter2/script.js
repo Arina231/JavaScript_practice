@@ -58,5 +58,5 @@ friends.unshift("mihal"); // add at first place
 console.log(friends);
 const pooped = friends.pop(); //remove last elements
 console.log(pooped);
-friends.shift();
+friends.shift(); //remove the first one
 console.log(friends.indexOf("arina"));
