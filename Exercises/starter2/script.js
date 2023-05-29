@@ -74,3 +74,6 @@ const calcTip = function (Bill) {
   }
 };
 calcTip(220);
+
+const Bills = ["125", "555", "44"];
+console.log(Bills);
