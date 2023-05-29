@@ -60,3 +60,8 @@ const pooped = friends.pop(); //remove last elements
 console.log(pooped);
 friends.shift(); //remove the first one
 console.log(friends.indexOf("arina"));
+console.log(friends.includes("mumu"));
+
+if (friends.includes("mihal")) {
+  console.log("your forever");
+}
