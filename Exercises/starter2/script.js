@@ -65,3 +65,12 @@ console.log(friends.includes("mumu"));
 if (friends.includes("mihal")) {
   console.log("your forever");
 }
+
+const calcTip = function (Bill) {
+  if (Bill >= 50 && Bill <= 300) {
+    console.log(`Tip is ${Bill * 0.15}`);
+  } else {
+    console.log(`Tip is ${Bill * 0.2}`);
+  }
+};
+console.log(calcTip(100));
