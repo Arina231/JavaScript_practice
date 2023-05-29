@@ -73,4 +73,4 @@ const calcTip = function (Bill) {
     console.log(`Tip is ${Bill * 0.2}`);
   }
 };
-console.log(calcTip(100));
+calcTip(220);
