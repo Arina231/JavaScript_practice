@@ -66,14 +66,13 @@ if (friends.includes("mihal")) {
   console.log("your forever");
 }
 
-const calcTip = function (Bill) {
-  if (Bill >= 50 && Bill <= 300) {
-    console.log(`Tip is ${Bill * 0.15}`);
-  } else {
-    console.log(`Tip is ${Bill * 0.2}`);
-  }
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 };
-calcTip(220);
+const bills = [125, 555, 44];
+console.log(bills);
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 
-const Bills = ["125", "555", "44"];
-console.log(Bills);
+console.log(tips);
+const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+console.log(totals);
