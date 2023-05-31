@@ -77,5 +77,12 @@ console.log(tips);
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(totals);
 
+const arina = {
+  firstName: "Arina",
+  lastName: "Ahona",
+  profession: "bekar",
+  location: "Dhaka",
+};
+console.log(arina.firstName);
 const informIn = prompt("What do you want to know about this page?");
 console.log(informIn);
