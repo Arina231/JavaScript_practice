@@ -84,5 +84,6 @@ const arina = {
   location: "Dhaka",
 };
 console.log(arina.firstName);
-const informIn = prompt("What do you want to know about this page?");
-console.log(informIn);
+console.log(arina["firstName"]);
+const informIn = prompt("What do you want to know about arina?");
+console.log(arina[informIn]);
