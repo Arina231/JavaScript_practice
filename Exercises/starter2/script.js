@@ -86,4 +86,3 @@ const arina = {
 console.log(arina.firstName);
 console.log(arina["firstName"]);
 const informIn = prompt("What do you want to know about arina?");
-console.log(arina[informIn]);
