@@ -49,33 +49,33 @@
 // checkWinner(scoreDolphin, scoreKoalas);
 // checkWinner(666, 222);
 
-const friends = ["nazy", "arina", "tania"];
-console.log(friends.length);
-const newLength = friends.push("tonny");
-console.log(friends);
-console.log(newLength);
-friends.unshift("mihal"); // add at first place
-console.log(friends);
-const pooped = friends.pop(); //remove last elements
-console.log(pooped);
-friends.shift(); //remove the first one
-console.log(friends.indexOf("arina"));
-console.log(friends.includes("mumu"));
+// const friends = ["nazy", "arina", "tania"];
+// console.log(friends.length);
+// const newLength = friends.push("tonny");
+// console.log(friends);
+// console.log(newLength);
+// friends.unshift("mihal"); // add at first place
+// console.log(friends);
+// const pooped = friends.pop(); //remove last elements
+// console.log(pooped);
+// friends.shift(); //remove the first one
+// console.log(friends.indexOf("arina"));
+// console.log(friends.includes("mumu"));
 
-if (friends.includes("mihal")) {
-  console.log("your forever");
-}
+// if (friends.includes("mihal")) {
+//   console.log("your forever");
+// }
 
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-};
-const bills = [125, 555, 44];
-console.log(bills);
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
+// const bills = [125, 555, 44];
+// console.log(bills);
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 
-console.log(tips);
-const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
-console.log(totals);
+// console.log(tips);
+// const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+// console.log(totals);
 
 const arina = {
   firstName: "Arina",
