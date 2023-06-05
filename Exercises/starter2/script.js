@@ -77,13 +77,28 @@
 // const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 // console.log(totals);
 
+// const arina = {
+//   firstName: "Arina",
+//   lastName: "Ahona",
+//   profession: "bekar",
+//   location: "Dhaka",
+// };
+// console.log(arina.firstName);
+// console.log(arina["firstName"]);
+// const informIn = prompt("What do you want to know about arina?");
+// console.log(arina[informIn]);
+
 const arina = {
   firstName: "Arina",
   lastName: "Ahona",
   profession: "bekar",
   location: "Dhaka",
+  hasDriversLicense: true,
+
+  calcAge: function (birthYear) {
+    return 2023 - birthYear;
+  },
 };
-console.log(arina.firstName);
-console.log(arina["firstName"]);
-const informIn = prompt("What do you want to know about arina?");
-console.log(arina[informIn]);
+
+console.log(arina.calcAge(1999));
+console.log(arina["calcAge"](1999));
