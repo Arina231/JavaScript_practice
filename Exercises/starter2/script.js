@@ -88,17 +88,38 @@
 // const informIn = prompt("What do you want to know about arina?");
 // console.log(arina[informIn]);
 
-const arina = {
-  firstName: "Arina",
-  lastName: "Ahona",
-  profession: "bekar",
-  location: "Dhaka",
-  hasDriversLicense: true,
+// const arina = {
+//   firstName: "Arina",
+//   lastName: "Ahona",
+//   profession: "bekar",
+//   location: "Dhaka",
+//   hasDriversLicense: true,
 
-  calcAge: function (birthYear) {
-    return 2023 - birthYear;
+//   calcAge: function (birthYear) {
+//     return 2023 - birthYear;
+//   },
+// };
+
+// console.log(arina.calcAge(1999));
+// console.log(arina["calcAge"](1999));
+const marks = {
+  fullName: "Mark Giller",
+  height: "1.69",
+  mass: "78",
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
   },
 };
 
-console.log(arina.calcAge(1999));
-console.log(arina["calcAge"](1999));
+const john = {
+  fullName: "John Smith",
+  height: "1.95",
+  mass: "92",
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+
+console.log(marks.calcBMI(), john.calcBMI());
