@@ -128,7 +128,7 @@ if (marks.bmi > john.bmi) {
   console.log(
     `${marks.fullName}'s BMI ${marks.bmi} is higher than ${john.fullName}'s`
   );
-} else {
+} else if (marks.bmi < john.bmi) {
   console.log(
     `${john.fullName}'s BMI ${john.bmi} is higher than ${marks.fullName}'s`
   );
