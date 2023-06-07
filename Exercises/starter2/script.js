@@ -133,3 +133,17 @@ if (marks.bmi > john.bmi) {
     `${john.fullName}'s BMI ${john.bmi} is higher than ${marks.fullName}'s`
   );
 }
+
+// const years = [1991, 1999, 2005, 2016];
+// const age = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   age.push(2037 - years[i]);
+// }
+// console.log(age);
+
+// for (let i = 0; i < age.length; i++) {
+//   if (typeof age[i] !== "number") continue;
+
+//   console.log(age[i], typeof age[i]);
+// }
