@@ -147,4 +147,10 @@ for (let i = 0; i < age.length; i++) {
 
   console.log(age[i], typeof age[i]);
 }
-const ages = [25, 36, 14, 76];
+
+const friends = ["nazy", "arina", "tania", 548, 555];
+for (let i = 0; i < friends.length; i++) {
+  if (typeof friends[i] !== "number") continue;
+
+  console.log(friends[i], typeof friends[i]);
+}
