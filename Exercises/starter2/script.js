@@ -148,11 +148,29 @@
 //   console.log(age[i], typeof age[i]);
 // }
 
-let dice = Math.trunc(Math.random() * 6) + 1;
-while (dice !== 6) {
-  console.log(`you rooled a ${dice}`);
-  dice = Math.trunc(Math.random() * 6) + 1;
-  if (dice === 6) {
-    console.log("loop ending.......");
-  }
+// let dice = Math.trunc(Math.random() * 6) + 1;
+// while (dice !== 6) {
+//   console.log(`you rooled a ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) {
+//     console.log("loop ending.......");
+//   }
+// }
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+
+const tips = [];
+const totals = [];
+
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+};
+
+for (let i = 0; i < bills.length; i++) {
+  tip = calcTip(bills[i]);
+  console.log(`${tip} and ${bills[i] + tip}`);
+  tips.push(tip);
+  totals.push(bills[i] + tip);
 }
+
+console.log(tips, totals);
