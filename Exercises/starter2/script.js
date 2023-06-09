@@ -102,48 +102,57 @@
 
 // console.log(arina.calcAge(1999));
 // console.log(arina["calcAge"](1999));
-const marks = {
-  fullName: "Mark Giller",
-  height: "1.69",
-  mass: "78",
-  calcBMI: function () {
-    this.bmi = this.mass / this.height ** 2;
-    return this.bmi;
-  },
-};
+// const marks = {
+//   fullName: "Mark Giller",
+//   height: "1.69",
+//   mass: "78",
+//   calcBMI: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
 
-const john = {
-  fullName: "John Smith",
-  height: "1.95",
-  mass: "92",
-  calcBMI: function () {
-    this.bmi = this.mass / this.height ** 2;
-    return this.bmi;
-  },
-};
+// const john = {
+//   fullName: "John Smith",
+//   height: "1.95",
+//   mass: "92",
+//   calcBMI: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
 
-console.log(marks.calcBMI(), john.calcBMI());
+// console.log(marks.calcBMI(), john.calcBMI());
 
-if (marks.bmi > john.bmi) {
-  console.log(
-    `${marks.fullName}'s BMI ${marks.bmi} is higher than ${john.fullName}'s`
-  );
-} else if (marks.bmi < john.bmi) {
-  console.log(
-    `${john.fullName}'s BMI ${john.bmi} is higher than ${marks.fullName}'s`
-  );
-}
+// if (marks.bmi > john.bmi) {
+//   console.log(
+//     `${marks.fullName}'s BMI ${marks.bmi} is higher than ${john.fullName}'s`
+//   );
+// } else if (marks.bmi < john.bmi) {
+//   console.log(
+//     `${john.fullName}'s BMI ${john.bmi} is higher than ${marks.fullName}'s`
+//   );
+// }
 
-const years = [1991, 1999, 2005, 2016];
-const age = [];
+// const years = [1991, 1999, 2005, 2016];
+// const age = [];
 
-for (let i = 0; i < years.length; i++) {
-  age.push(2037 - years[i]);
-}
-console.log(age);
+// for (let i = 0; i < years.length; i++) {
+//   age.push(2037 - years[i]);
+// }
+// console.log(age);
 
-for (let i = 0; i < age.length; i++) {
-  if (typeof age[i] !== "number") continue;
+// for (let i = 0; i < age.length; i++) {
+//   if (typeof age[i] !== "number") continue;
 
-  console.log(age[i], typeof age[i]);
+//   console.log(age[i], typeof age[i]);
+// }
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+while (dice !== 6) {
+  console.log(`you rooled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) {
+    console.log("loop ending.......");
+  }
 }
