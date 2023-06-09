@@ -168,9 +168,9 @@ const calcTip = function (bill) {
 
 for (let i = 0; i < bills.length; i++) {
   tip = calcTip(bills[i]);
-  console.log(`${tip} and ${bills[i] + tip}`);
+  // console.log(`${tip} and ${bills[i] + tip}`);
   tips.push(tip);
   totals.push(bills[i] + tip);
 }
 
-console.log(tips, totals);
+console.log(bills, tips, totals);
