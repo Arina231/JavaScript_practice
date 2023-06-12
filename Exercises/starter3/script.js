@@ -27,7 +27,9 @@ const measureKelvin = function () {
     unit: 'celsius',
     value: Number(prompt('degree celsius:')),
   };
+  console.table(measurement);
   const kelvin = measurement.value + 273;
   return kelvin;
 };
+
 console.log(measureKelvin());
