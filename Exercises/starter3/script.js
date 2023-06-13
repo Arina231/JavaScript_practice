@@ -24,23 +24,23 @@
 const measureKelvin = function () {
   const measurement = {
     type: 'temp',
-//     unit: 'celsius',
-//     // value: Number(prompt('degree celsius:')),
-//     value: 10,
-//   };
-//   console.table(measurement);
-//   const kelvin = measurement.value + 273;
-//   return kelvin;
-// };
+    unit: 'celsius',
+    // value: Number(prompt('degree celsius:')),
+    value: 10,
+  };
+  console.table(measurement);
+  const kelvin = measurement.value + 273;
+  return kelvin;
+};
 
-// console.log(measureKelvin());
+console.log(measureKelvin());
 
-// const arr = [17, 21, 23];
-// const printForecast = function (temp) {
-//   let str = '...';
-//   for (let i = 0; i < temp.length; i++) {
-//     str = str + ` ${temp[i]}C in ${i + 1}days ...`;
-//   }
-//   return str;
-// };
-// console.log(printForecast(arr));
+const arr = [17, 21, 23];
+const printForecast = function (temp) {
+  let str = '...';
+  for (let i = 0; i < temp.length; i++) {
+    str = str + ` ${temp[i]}C in ${i + 1}days ...`;
+  }
+  return str;
+};
+console.log(printForecast(arr));
