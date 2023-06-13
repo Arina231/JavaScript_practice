@@ -39,7 +39,7 @@ const arr = [17, 21, 23];
 const printForecast = function (temp) {
   let str = '...';
   for (let i = 0; i < temp.length; i++) {
-    str = str + `${temp[i]}C in ${i + 1}days...`;
+    str = str + ` ${temp[i]}C in ${i + 1}days ...`;
   }
   return str;
 };
