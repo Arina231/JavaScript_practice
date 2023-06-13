@@ -44,4 +44,3 @@ const printForecast = function (temp) {
   return str;
 };
 console.log(printForecast(arr));
-console.log();
