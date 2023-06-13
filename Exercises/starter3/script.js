@@ -25,7 +25,8 @@ const measureKelvin = function () {
   const measurement = {
     type: 'temp',
     unit: 'celsius',
-    value: Number(prompt('degree celsius:')),
+    // value: Number(prompt('degree celsius:')),
+    value: 10,
   };
   console.table(measurement);
   const kelvin = measurement.value + 273;
@@ -33,3 +34,13 @@ const measureKelvin = function () {
 };
 
 console.log(measureKelvin());
+
+const arr = [17, 21, 23];
+const printForecast = function (temp) {
+  let str = '...';
+  for (let i = 0; i < temp.length; i++) {
+    str = str + `${temp[i]}C in ${i + 1}days...`;
+  }
+  return str;
+};
+console.log(printForecast(arr));
